@@ -1,0 +1,91 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{方鸿渐}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in emaill address
+\contactInfo{(+86) 131-3131-3113}{1311@113.com}{Web前端研发工程师}{GitHub @13113}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+%\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
+ 
+\section{个人总结}
+这件事闹得挺大的，全球都传疯了。这件事闹得确实挺大，但也不是特别大，你要说小吧，倒也不是特别小，我觉得这事还是挺大的，不过不是特别大，但也不小。大家都觉得这事特别大，但我觉得也没那么大，但你要说小吧，\textbf{这件事也不小。}
+
+% \section{\faGraduationCap\ 教育背景}
+\section{教育背景}
+\datedsubsection{\textbf{克莱登大学},克莱登实验班,\textit{在读硕士研究生}}{2015.9 - 2018.6}
+\ \textbf{排名11/133(前10\%)},克莱登大学学业奖学金(2次),IEEE Student member,预计2018年6月毕业
+\datedsubsection{\textbf{北平某大学},软件工程,\textit{工学学士}}{2011.9 - 2015.6}
+\ \textbf{排名2/62(前5\%)},国家励志奖学金,人民奖学金(7次),科技竞赛奖(2次),南京市普通高等学校优秀毕业生,南京大学优秀毕业生,软件学院金牌毕业生,优秀团员/优秀学生(5次)
+\datedsubsection{\textbf{荷兰 莱顿大学},计算机科学与技术,\textit{国家留学基金委公派交换生}}{2015.3 - 2015.5}
+\ 2014年中国政府奖学金(\textit{http://www.csc.edu.cn/}),DID-ACTE项目交换生(\textit{http://did-acte.org/})
+
+% \section{\faCogs\ IT 技能}
+\section{技术能力}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.2ex]
+  \item \textbf{编程语言}: JavaScript (ECMAScript, Node.js), HTML/CSS, Python, Go, SQL, C, Shell
+  \item \textbf{操作系统,数据库与工程构建}: Linux/macOS/MySQL/MongoDB/Git/webpack/Progressive Web App
+  \item \textbf{关键词}: React/Vue.js/D3.js(SVG)/three.js(canvas, WebGL)/chrome extension/Express
+\end{itemize}
+
+% \end{itemize}
+
+\section{实习经历}
+\datedsubsection{\textbf{Dunder Mifflin | Potato}, Regional Manager}{2017.6-2017.9}
+\begin{itemize}
+%   \item 飞猪北京前端团队全面负责各交通线的票务(机票/火车票/汽车票) web 应用与事业群基础架构研发
+  \item \textbf{Managed, inspired, and protected }the Scranton branch from criminals and raccoons。
+  \item Maintained the highest sales average, despite the weak economy and obsolete product
+\end{itemize}
+
+\datedsubsection{\textbf{看了等于白看，不看白不看。 | Meaning},数据挖掘与可视化工程师}{2015.11-2017.5}
+\begin{itemize}
+  \item \textbf{怎么说呢，我很漂亮}，有一种难以形容的美，特别是有两个眼睛，一个鼻子和嘴巴，正正好好，不多不少，最妙的是头发正好长在头顶上。
+  \item 万里无云的天空中竟然没有一片云。
+\end{itemize}
+
+
+\section{竞赛获奖/项目作品}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.2ex]
+%   \item LeetCodeOJ Solutions, \textit{https://github.com/hijiangtao/LeetCodeOJ}
+  \item 第三届中国软件杯大学生软件设计大赛\textbf{全国一等奖}( \textit{http://www.cnsoftbei.com/} ),2014 年8月
+  \item 优秀团队不优秀不上台\textbf{全国特等奖}( \textit{http://www.rcccaa.org/} ),2013年8月
+%   \item 电视节目"爸爸去哪儿"可视化分析展示, \textit{https://hijiangtao.github.io/variety-show-hot-spot-vis/}
+\end{itemize}
+
+% \section{\faHeartO\ 项目/作品摘要}
+% \section{项目/作品摘要}
+% \datedline{\textit{An Integrated Version of Security Monitor Vis System}, https://hijiangtao.github.io/ss-vis-component/ }{}
+% \datedline{\textit{Dark-Tech}, https://github.com/hijiangtao/dark-tech/ }{}
+% \datedline{\textit{融合社交网络数据挖掘的电视节目可视化分析系统}, https://hijiangtao.github.io/variety-show-hot-spot-vis/}{}
+% \datedline{\textit{LeetCodeOJ Solut13ions}, https://github.com/hijiangtao/LeetCodeOJ}{}
+% \datedline{\textit{Info-Vis}, https://github.com/ISCAS-VIS/infovis-ucas}{}
+
+
+% \section{\faInfo\ 社会实践/其他}
+\section{社区参与/实践其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.2ex]
+  \item 乐于参与开源社区讨论,\textbf{参与翻译 Vue.js, webpack, WebAssembly, Babel 文档，印记中文成员}
+  \item 中国国际空天陆海救援理事长、一本正经胡说处主任(2002-2006)
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
